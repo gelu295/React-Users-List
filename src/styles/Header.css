@@ -1,0 +1,21 @@
+header {
+    background-color: #52438F;
+    font-size: 3rem;
+    color: #fff;
+    height: 7rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.logo-name {
+    margin-left: 5rem;
+    display: flex;
+}
+
+.logo-name input {
+    margin-left: 10rem;
+    border-radius: 2rem;
+}

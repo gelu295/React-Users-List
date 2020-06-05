@@ -1,0 +1,17 @@
+.user-container {
+    width: 120rem;
+    background-color: #fff;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(93, 65, 255);
+}
+
+/* .username {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+} */
