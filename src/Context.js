@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
 
 const Context = React.createContext();
@@ -9,7 +9,6 @@ function ContextProvider({children}) {
         password: '1234'
     })
     const [isAuth, setIsAuth] = useState(false)
-    const [filteredArray, setFilteredArray] = useState([])
 
     const handleLogin = () => {
         setIsAuth(true)
@@ -19,9 +18,6 @@ function ContextProvider({children}) {
         setIsAuth(false)
     }
 
-    const filterName = (arr) => {
-        const filterTest = arr.filter()
-    }
 
     return (
         <Context.Provider value={{state, handleLogin, isAuth}}>

@@ -20,7 +20,6 @@ const LoginPage = (props) => {
             ...prevState,
             [name] : value
         }))
-        //console.log(userData)
     }
 
     const handleSubmit = (event) => {
