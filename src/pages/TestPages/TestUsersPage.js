@@ -25,26 +25,10 @@ const TestUsersPage = () => {
         return prev[sortValue] > next[sortValue]
     }) : filteredUsersList
 
-    // const sortedList = sortValue ? filteredUsersList.sort((a, b) => {
-
-    // })
 
     const usersList = filteredUsersList.map(user => {
         return <TestSingleUser user={user}/>
     })
-
-    console.log(sortValue)
-
-
-    // const sortByKey = (array, key) => {
-    //     const sorted = [...array].sort((a, b) => {
-    //         let x = a[key]
-    //         let y = b[key]
-    //         return ((x < y) ? -1 : ((x > y) ? 1 : 0))
-    //     })
-    //     console.log(usersList)
-    //     setUsersList(sorted)
-    // }
 
 
     return (
