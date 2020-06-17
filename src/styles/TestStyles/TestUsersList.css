@@ -1,0 +1,10 @@
+.users-list-container {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.member-name {
+    margin-right: 2rem;
+}

@@ -1,0 +1,11 @@
+.single-user-container {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+
+.single-user {
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+}

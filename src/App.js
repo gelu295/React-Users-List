@@ -8,6 +8,8 @@ import Users from './pages/Users'
 import Unauthorized from './pages/Unauthorized'
 import ProtectedRoute from './components/ProtectedRoute'
 
+import TestUsersPage from './pages/TestPages/TestUsersPage'
+
 import {Context} from './Context'
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={LoginPage}/>
-
+        <Route exact path="/test" component={TestUsersPage}/>
         <ProtectedRoute exact path="/users" component={Users} isAuth={isAuth}/>
         <Route path='/unauthorized' component={Unauthorized}/>
       </Switch>
